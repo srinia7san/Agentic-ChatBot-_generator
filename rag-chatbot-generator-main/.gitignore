@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Environment (contains API keys, secrets)
+.env
+.env.local
+
+# FAISS vector stores (large binary files)
+faiss_indices/
+*.faiss
+*.pkl
+
+# Uploaded PDFs (user data)
+uploads/
+temp/
+
+# Agent metadata (contains tokens)
+agents_metadata.json
+
+# Logs
+*.log
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+*.local

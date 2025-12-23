@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment files (API keys, secrets)
+.env
+.env.local
+.env*.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# FAISS vector stores
+faiss_indices/
+*.faiss
+*.pkl
+
+# Agent data
+agents_metadata.json
+uploads/
+
+# Logs
+*.log
+logs/
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# OS
+.DS_Store
+Desktop.ini
+
+# Misc
+*.local
